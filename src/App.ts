@@ -125,3 +125,18 @@ const stateRevenues = {
 
 app.runningQuestionFour(stateRevenues);
 app.runningQuestionFive("Hello, World!");
+
+function teste() {
+  let sum = 0;
+  let n = [20, 8, 32, 40, 35, 11, 43, 11, 32, -16];
+  n.forEach((x) => {
+    sum += x;
+
+    if (sum >= 100) {
+      sum = 0;
+    }
+  });
+  console.log(sum);
+}
+
+teste();
